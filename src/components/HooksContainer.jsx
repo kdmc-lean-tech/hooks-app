@@ -6,6 +6,7 @@ import SimpleForm from './SimpleForm';
 import CustomForm from './CustomForm';
 import MultipleCustomHooks from './MultipleCustomHooks';
 import UseCallback from './UseCallback';
+import Todos from './Todos';
 
 const HooksContainer = () => {
   return (
@@ -31,6 +32,9 @@ const HooksContainer = () => {
         </Col>
         <Col className='use-callback mb-4'>
           <UseCallback/>
+        </Col>
+        <Col className='use-reducer mb-4'>
+          <Todos/>
         </Col>
       </Row>
     </Container>
